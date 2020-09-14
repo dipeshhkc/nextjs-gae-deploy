@@ -1,13 +1,14 @@
-##Project Description
+## Project Description
 
-###gcloud auth login
+```gcloud auth login```
 
-##create a new GCP project and application
+### Create a new GCP project and application
+```
+gcloud projects create PROJECT-NAME
+gcloud config set project PROJECT-NAME
+gcloud app create
+```
 
-###gcloud projects create PROJECT-NAME
-###gcloud config set project PROJECT-NAME
-###gcloud app create
+### deploy
 
-##deploy
-
-###yarn run deploy
+```yarn run deploy```
