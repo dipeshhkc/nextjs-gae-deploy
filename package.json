@@ -10,6 +10,9 @@
   "dependencies": {
     "next": "9.5.3",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "build": "rm -rf ./build && NODE_ENV=production next build",
+    "start": "next start -p 8080",
+    "deploy": "npm run build && gcloud app deploy"
   }
 }
